@@ -1,0 +1,249 @@
+/* Site wide classes */
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+a {
+  text-decoration:none;
+  color: white;
+}
+
+.Selected{
+    animation:SelectedText 1.2s infinite;
+    background-color: blue;
+}
+
+@keyframes SelectedText{
+    0%{     color: yellow;    }
+    49%{    color: yellow; }
+    60%{    color: transparent; }
+    99%{    color: transparent;  }
+    100%{   color: yellow;    }
+}
+
+body {
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: VT323;
+  background-color: Black;
+}
+
+ul {
+  text-align: right;
+  border: 10px solid yellow;
+  list-style-type: none;
+  margin: 10px;
+  padding: 20px;
+  float: left;
+}
+
+li{
+  padding: 10px;
+}
+
+li:hover{
+  background-color: magenta;
+}
+
+#HeadingWrapper{
+  margin: 10px;
+  background-color: blue;
+  padding: 15px;
+}
+
+#scrollingtextWrapper {
+  margin: 10px;
+  border: 10px solid red;
+  color: cyan;
+  display: block;
+  padding: 10px;
+}
+
+marquee{
+  white-space: pre;
+}
+
+/* homepage css */
+
+#textWrapper{
+  margin: 10px;
+  padding: 10px;
+  border: 10px solid blue;
+  display: inline-block;
+}
+
+/* Infopage css */
+
+#eventsWrapper{
+  border: 10px solid blue;
+  overflow: hidden;
+  margin: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.events{
+  font-size: 25;
+  text-align: center;
+  list-style-type: none;
+}
+
+#twitterWrapper{
+float: left;
+padding: 10px;
+}
+
+#textwrapperInfo{
+  overflow: hidden;
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+  height: 475px;
+  border: 10px solid cyan;
+}
+
+/* Contactpage css */
+
+#ContactPage{
+  display: grid;
+  grid-template-columns: 42% auto;
+}
+#Contact, #FindUs{
+  border: 10px solid yellow;
+  margin: 10px;
+  padding: 20px;
+}
+#Contact{
+  grid-row-start: span 2;
+}
+#Contact textarea{
+  height: 300px;
+  resize: none;
+}
+#Contact input, textarea{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: white;
+}
+#Contact input[type=Submit]{
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: white;
+  background-color: blue;
+}
+#Contact input[type=Submit]:hover{
+  color: white;
+  background-color: magenta;
+}
+iframe{
+  border: 0;
+  margin: 0;
+  width: 100%;
+  height: 65%;
+}
+
+/* Project page css */
+
+#projects{
+  float: center;
+}
+
+#Levels{
+  margin: 10px;
+  padding: 5px;
+  display: inline-block;
+  width: 97.5%;
+  text-align: center;
+  font-size: 120%;
+}
+
+#Beginner{
+  border: 10px solid white;
+  }
+
+#Intermediate{
+  border: 10px solid yellow;
+  color: yellow;
+  }
+
+#Advanced{
+  border: 10px solid red;
+  color: red;
+  }
+
+  /* Mechanics page css */
+
+  #imageLocation{
+    overflow: hidden;
+    margin: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    height: 393px;
+    text-align: center;
+    position: relative;
+    border: 10px solid cyan;
+  }
+
+  #carImage{
+    max-width: 100%;
+    width: 750px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  #pageInfoMechanics{
+    border: 10px solid magenta;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .grid-container {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 5px solid yellow;
+  }
+
+  .grid-item {
+    border: 5px solid yellow;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .grid-item:hover{
+    background-color: blue;
+  }
+
+/* Embroidery page css */
+
+#EmbroideryIntro{
+  display: inline-block;
+  border: 10px solid red;
+  padding: 10px;
+  margin: 10px;
+}
+
+#Threads{
+  display: inline-block;
+  border: 10px solid cyan;
+  padding: 10px;
+  margin: 10px;
+}
+
+#Titles{
+  text-decoration: underline;
+}
